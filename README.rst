@@ -19,12 +19,16 @@ Usage
 
 Run tool by invoking ``wordstats`` command. Tool also accepts flags::
 
-    usage: wordstats [-h]
-
+    usage: wordstats [-h] [-V] [FILE [FILE ...]]
+    
     Tool that prints various statistics on the word list
     
+    positional arguments:
+      FILE           file that contains word list
+    
     optional arguments:
-      -h, --help  show this help message and exit
+      -h, --help     show this help message and exit
+      -V, --version  show program's version number and exit
 
 Contribute
 ----------
